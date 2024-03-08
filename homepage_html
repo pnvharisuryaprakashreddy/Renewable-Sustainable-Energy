@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRICITY USAGE</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url("https://wallpapers.com/images/hd/electric-background-ajls9e7ox1fxljz2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+/* P{
+    font-size: 130px;
+    color: aliceblue;
+
+}
+span{
+    font-size: 200px;
+    color: aliceblue;
+
+} */
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #00f7f7;
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 50%;
+}
+.text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 5%;
+}
+.text-box p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 2px #00f7f7;
+    background: url("https://previews.123rf.com/images/cappan/cappan1410/cappan141000009/32339612-blue-electric-lighting-abstract-electrical-background.jpg");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+
+
+
+
+.text-box h3{
+    font-size: 40px;
+    font-weight: 500;  
+}
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-box a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2.5px solid #00f7f7;
+    display: flex;
+    align-items: center;
+}
+.text-box a span{
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+
+}
+.social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icons img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
+}
+/* .text-box .row span{
+    color: #00f7f7;
+} */
+.column{
+    color: #fff;
+    font-size: 20px;
+}
+.Steps{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url("file:///Users/harisuryaprakashreddyp.n.v/Desktop/new%20web.html/on%20page%20img.1.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+</head>
+<body>
+ <div class="container">
+   <nav>
+    <!-- <img src="images/logo.png" class="logo"> -->
+    <ul>
+        <li><a href="home.html"></a></li>
+        <li><a href="calculator.html"></a></li>
+        <li><a href="india.html" target="_main">SUSTAINABLE ENERGY</a></li>
+        <li><a href="organising.html">RENEWABLE ENERGY</a></li>
+    </ul>
+    <!-- <P><span>𝗘</span>𝗟𝗘𝗖𝗧𝗥𝗜𝗖𝗜𝗧𝗬</P> -->
+   </nav>
+   <div class="text-box">
+    <p>THE</p>
+    <h1>RENEWABLE</h1>
+    <h1>SUSTAINABLE</h1>
+    <h3>ENERGY </h3>
+
+    <!-- <div class="row">
+        <a href="developed.html"></a>
+        <a href="developing.html" target="_main" target="_main"><span>&#x27F6;</span></a>
+        <div class="column"><br></span>
+        </div> -->
+    </div>
+   </div>
+    
+   <!-- <div class="social-icons">
+        <a href=""><img src=""></a>
+        <a href=""><img src=""></a>
+        <a href=""><img src=""></a>
+   </div> -->
+  
+    
+ </div>   
+</body>
+</html>
